@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(12, 193, 193);
+}
+
+.stopwatch {
+    padding-top: 65px;
+    margin: 20px;
+}
+
+.time {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+button:hover{
+    transition: all 0.4s;
+    cursor: pointer;
+    color: antiquewhite;
+    background-color: blue;
+}
+
+button.lap:visited{
+    background-color: greenyellow;
+}
+
+.laps {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
